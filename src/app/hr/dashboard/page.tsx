@@ -65,10 +65,10 @@ export default function HRDashboard() {
   return (
     <div className="container" style={{ padding: '60px 24px', minHeight: '100vh' }}>
       <div style={{ marginBottom: '40px' }}>
-        <a href="/" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: 600 }}>&larr; Back to Home</a>
+        <a href="/" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: 600 }}>&larr; Back to Siftly</a>
       </div>
 
-      <h1 style={{ marginBottom: '16px' }}>HR AI Screening Dashboard</h1>
+      <h1 style={{ marginBottom: '16px' }}>Siftly HR Screening Dashboard</h1>
       <p style={{ color: 'var(--text-secondary)', marginBottom: '40px', maxWidth: '700px', fontSize: '1.125rem' }}>
         Upload bulk resumes (.txt for demo). Our Gemini AI will strip out demographic, university, and gender biases, 
         and rank candidates purely based on their skill and experience compatibility with your Job Description.

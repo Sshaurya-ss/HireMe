@@ -39,10 +39,10 @@ export default function ResumeBuilder() {
   return (
     <div className="container" style={{ padding: '60px 24px', minHeight: '100vh' }}>
       <div style={{ marginBottom: '40px' }}>
-        <a href="/" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: 600 }}>&larr; Back to Home</a>
+        <a href="/" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: 600 }}>&larr; Back to Siftly</a>
       </div>
       
-      <h1 style={{ marginBottom: '16px' }}>Applicant Portal: Resume Builder</h1>
+      <h1 style={{ marginBottom: '16px' }}>Applicant Portal: Siftly Resume Builder</h1>
       <p style={{ color: 'var(--text-secondary)', marginBottom: '40px', maxWidth: '600px', fontSize: '1.125rem' }}>
         Input your details below. Our Gemini AI will automatically format this into a highly professional, ATS-friendly LaTeX document and provide actionable gap-analysis feedback.
       </p>

@@ -5,6 +5,46 @@ export default function Home() {
   return (
     <>
       <main className="container">
+        {/* Navigation Bar */}
+        <nav style={{ 
+          display: 'flex', 
+          justifyContent: 'space-between', 
+          alignItems: 'center', 
+          padding: '24px 0', 
+          marginBottom: '20px',
+          borderBottom: '1px solid var(--glass-border)'
+        }}>
+          <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span style={{ 
+              fontSize: '1.75rem', 
+              fontWeight: 800, 
+              color: 'var(--text-primary)',
+              letterSpacing: '-0.02em'
+            }}>
+              Siftly
+            </span>
+            <span style={{ 
+              background: 'var(--accent-color)', 
+              color: '#ffffff', 
+              fontSize: '0.75rem', 
+              fontWeight: 700, 
+              padding: '2px 8px', 
+              borderRadius: '999px',
+              textTransform: 'uppercase'
+            }}>
+              AI
+            </span>
+          </Link>
+          <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+            <Link href="/applicant/resume-builder" style={{ textDecoration: 'none', color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 500 }}>
+              Resume Builder
+            </Link>
+            <Link href="/hr/dashboard" style={{ textDecoration: 'none', color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 500 }}>
+              HR Dashboard
+            </Link>
+          </div>
+        </nav>
+
         {/* Detailed Hero Section */}
         <div className="hero-section">
           <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '8px' }}>
@@ -113,7 +153,7 @@ export default function Home() {
         <div className="container">
           <div className="footer-grid">
             <div>
-              <div style={{ fontSize: '1.5rem', fontWeight: 800, marginBottom: '16px' }}>NexaJob AI</div>
+              <div style={{ fontSize: '1.5rem', fontWeight: 800, marginBottom: '16px' }}>Siftly</div>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>
                 The future of unbiased, merit-based recruiting. Powered by advanced Large Language Models.
               </p>
@@ -151,7 +191,7 @@ export default function Home() {
           </div>
           
           <div style={{ borderTop: '1px solid #e2e8f0', paddingTop: '24px', textAlign: 'center', color: 'var(--text-secondary)', fontSize: '0.875rem' }}>
-            &copy; {new Date().getFullYear()} NexaJob AI Platform. All rights reserved.
+            &copy; {new Date().getFullYear()} Siftly. All rights reserved.
           </div>
         </div>
       </footer>
